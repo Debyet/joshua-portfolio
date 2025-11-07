@@ -8,12 +8,12 @@ export const About = () => {
     >
       <RevealOnScroll>
         <div className="max-w-3xl mx-auto px-4 w-full">
-          {/* ===== About Title ===== */}
+          
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-orange-500 to-red-400 bg-clip-text text-transparent text-center">
             About Me
           </h2>
 
-          {/* ===== About Paragraph ===== */}
+          
           <div className="rounded-xl p-8 border-white/10 border-t-2 hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
               I am Devieth Jushua M. Anto, a 3rd-year student at CVSU Bacoor
@@ -23,9 +23,9 @@ export const About = () => {
               software design.
             </p>
 
-            {/* ===== Skills Grid ===== */}
+           
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {/* Left Column – Technical Skills */}
+             
               <div>
                 <div className="space-y-4 w-full">
                   {[
@@ -54,7 +54,7 @@ export const About = () => {
                 </div>
               </div>
 
-              {/* Right Column – Personal Skills */}
+              
               <div>
                 <div className="space-y-4 w-full">
                   {[
@@ -84,7 +84,7 @@ export const About = () => {
             </div>
           </div>
 
-          {/* ===== Education Section (Full Width) ===== */}
+          
           <div className="mt-8 w-full">
             <div className="w-full p-6 rounded-xl border-white/10 border-t-2 hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4 text-orange-400 text-center">

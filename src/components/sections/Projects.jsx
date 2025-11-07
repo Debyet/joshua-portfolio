@@ -13,7 +13,7 @@ export const Projects = () => {
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* ===== Project 1 ===== */}
+           
             <div className="p-6 rounded-xl border border-white/10 hover:translate-y-1 hover:border-orange-500/30 hover:shadow-[0_2px_8px_rgba(249,115,22,0.2)] transition">
               <h3 className="text-xl font-bold mb-2 text-orange-400">
                 My First Menu
@@ -35,7 +35,7 @@ Improvements could include clearer column names, separating unit price from quan
               </div>
             </div>
 
-            {/* ===== Project 2 ===== */}
+            
             <div className="p-6 rounded-xl border border-white/10 hover:translate-y-1 hover:border-orange-500/30 hover:shadow-[0_2px_8px_rgba(249,115,22,0.2)] transition">
               <h3 className="text-xl font-bold mb-2 text-orange-400">
                 Grid system
